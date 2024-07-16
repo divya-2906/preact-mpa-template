@@ -3,7 +3,7 @@ import asyncHandler from 'express-async-handler';
 import routes from './routes/routes.js';
 import { publicURLPath, publicDirectory } from './paths.js';
 import compression from 'compression';
-const port = process.env.PORT || 5132;
+const port = 3000;
 
 const app = express();
 
